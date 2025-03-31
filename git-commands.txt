@@ -1,0 +1,211 @@
+  278  git init
+  279  ls
+  280  ls -a
+  281  git status
+  282  mkdir jupiter
+  283  mkdir nebula
+  284  mkdir pluto
+  285  ls
+  286  touch saturn{1..10}.py
+  287  ls
+  288  touch jupiter/test12
+  289  touch nebula/test34
+  290  touch pluto/test56
+  291  ls
+  292  ls -a
+  293  clear
+  294  git status
+  295  git add .
+  296  git status
+  297  git commit -m "Added new files"
+  298  git config --list
+  299  git status
+  300  cd titanwork/
+  301  ls
+  302  git status
+  303  git add .
+  304  git status
+  305  git commit -m "Changed dir of files"
+  306  git status
+  307  cd.
+  308  cd ..
+  309  git status
+  310  git add .
+  311  git status
+  312  git commit -m "Deletion of some files"
+  313  git status
+  314  git remote add origin https://github.com/RutvikMangukiya/Git-Repos.git
+  315  cat .git/config
+  316  git status
+  317  git push -u origin main
+  318  git status
+  319  git logs
+  320  got log
+  321  git log
+  322  clear
+  323  ls
+  324  cd titanwork/
+  325  ls
+  326  vim saturn1.py
+  327  git status
+  328  git add saturn1.py
+  329  git status
+  330  git commit -m "Added saturn moons"
+  331  git push origin main
+  332  git log
+  333  git log --oneline 
+  334  git show be3f20e
+  335  vim saturn1.py
+  336  git status
+  337  git add .
+  338  git commit -m "Updated saturn moons"
+  339  git status
+  340  git push origin main
+  341  git log --oneline
+  342  git show 2886c5e
+  343  git pull
+  344  cat saturn10.py
+  345  git log
+  346  clear
+  347  git branch -c sprint1
+  348  git branch -a
+  349  ls
+  350  git checkout sprint1
+  351  ls
+  352  git rm saturn6.py saturn7.py saturn8.py saturn9.py
+  353  ls
+  354  git status
+  355  git mv saturn1.py saturn11.py
+  356  ls
+  357  git rm saturn2.py saturn3.py saturn4.py saturn5.py
+  358  touch jupiter{1..4}.rb
+  359  ls
+  360  git add .
+  361  git commit -m "Added jupiters"
+  362  git push origin sprint1
+  363  git pull
+  364  git branch -a
+  365  git checkout sprint2
+  366  ls
+  367  touch sun earth venus mercury
+  368  ls
+  369  git status
+  370  git add .
+  371  git status
+  372  git commit -m "Added more planets"
+  373  git push origin sprint2
+  374  git branch -a
+  375  git switch main
+  376  git status
+  377  ls
+  378  git merge sprint1
+  379  ls
+  380  git switch sprint1
+  381  ls
+  382  git push --all origin
+  383  cd
+  384  cd GitHub/
+  385  ls
+  386  rm -rf Git-Repos/
+  387  ls
+  388  git clone https://github.com/RutvikMangukiya/Git-Repos.git
+  389  ls
+  390  cd Gi
+  391  cd Git-Repos/
+  392  ls
+  393  cd titanwork/
+  394  ls
+  395  git branche -a
+  396  git branch -a
+  397  history
+  398  vim jupitor1.rb
+  399  cat jupitor1.rb
+  400  ls
+  401  git checkout jupitor1.rb
+  402  git rm jupitor.rb
+  403  git rm jupitor1.rb
+  404  ls
+  405  rm jupitor1.rb
+  406  ls
+  407  vim jupiter1.rb
+  408  cat jupiter1.rb
+  409  ls
+  410  git checkout jupiter1.rb
+  411  cat jupiter1.rb
+  412  vim jupiter1.rb
+  413  git satus
+  414  git status
+  415  git diff
+  416  git add .
+  417  git status
+  418  git diff --cached
+  419  git commit -m "playbook"
+  420  git status
+  421  git diff
+  422  git diff --cached
+  423  git log --oneline
+  424  git diff 1720dca.. 7589395
+  425  git diff 1720dca..7589395
+  426  git log --oneline
+  427  git revert HEAD
+  428  cat jupiter1.rb
+  429  git log --oneline
+  430  git reset --hard 1720dca
+  431  git log --oneline
+  432  cat .git/config
+  433  cd G
+  434  cd GitHub/
+  435  cd Git-Repos/
+  436  ls
+  437  cat .git/config
+  438  cd
+  439  ls
+  440  ssh-keygen.exe
+  441  sudo apt-get install openshh-client
+  442  sudo apt-get install openssh-client
+  443  ssh-keygen.exe
+  444  ssh-keygen
+  445  ls
+  446  cd .ssh
+  447  ls
+  448  ls .ssh
+  449  cd
+  450  ls .ssh
+  451  rm id_ed25519
+  452  cd .ssh
+  453  ls
+  454  rm id_ed25519
+  455  ls
+  456  cd
+  457  rm .ssh/id_ed25519.pub
+  458  ls
+  459  ls .ssh
+  460  mkdir sshkeys-rut
+  461  ls
+  462  cd sshkeys-rut/
+  463  ssh-keygen
+  464  ls
+  465  ssh-keygen
+  466  ls .ssh
+  467  cd
+  468  ls .ssh
+  469  rm .ssh/id_ed25519 .ssh/id_ed25519.pub
+  470  ls
+  471  ls .ssh
+  472  clear
+  473  cd GitHub/
+  474  ls
+  475  git clone https://github.com/RutvikMangukiya/vprofile-project-proton.git
+  476  ls
+  477  cd vprofile-project-proton/
+  478  git branch -a
+  479  git tag
+  480  git show v2.0.0
+  481  git tag -a
+  482  git branch -a
+  483  clear
+  484  git tag
+  485  git tag -a v3.5.3 -m "Release 3.5.3"
+  486  git tag
+  487  git log --oneline
+  488  history
